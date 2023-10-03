@@ -86,11 +86,20 @@ body{
     position: relative;
 }
 
+.contact-links{
+    color: white;
+    text-decoration: none;
+}
+
+.contact-links, .contact-links:visited, .contact-links:hover, .contact-links:active {
+    color: white;
+}
+
 .contact-info>ul>li{
     position: relative;
     list-style: none;
     margin: 10px 0;
-    cursor: pointer;
+    cursor: default;
 }
 
 .contact-info ul li .icon{
@@ -186,4 +195,37 @@ body{
     background-color: lightcoral;
     /* display: block; */
     /* margin-top: 5px; */
+}
+
+/* Donwload Button */
+
+.button{
+    padding: 0;
+    text-align: center;
+}
+
+#download-btn{
+    margin-top: 50px;
+    background-color: lightcoral;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: 0.6s; 
+}
+
+#download-btn:hover{
+    transform: translate(-5px, -5px);  
+    box-shadow: grey 10px 10px 10px;   
+    transition: 0.5s;
+}
+
+#download-btn:active{
+    transform: translate(2.5px, 2.5px);
+    box-shadow: gray 2px 2px 1px;  
+    transition: 0.25s;
 }
