@@ -347,8 +347,8 @@ p{
 
     }
     #pfp{
-        height: 500px;
-        width: 500px;
+        height: 300px;
+        width: 300px;
     }
 }
 
@@ -358,5 +358,12 @@ p{
     }
     .about .box .year-company{
         margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 1000px){
+    #pfp{
+        height: 200px;
+        width: 200px;
     }
 }
