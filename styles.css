@@ -31,16 +31,12 @@ body{
     position: relative;
     background-color: #323b4c;
     padding: 40px;
-    /* border-top-left-radius: 30px; */
-    /* border-bottom-left-radius: 30px; */
 }
 
 .container .right-side{
     position: relative;
     background-color: #fff;
     padding: 40px;
-    /* border-top-right-radius: 30px; */
-    /* border-bottom-right-radius: 30px; */
 }
 
 .profile-text{
@@ -133,67 +129,6 @@ body{
     color: #fff;
 }
 
-
-/* trying */
-/* .try {
-    /* display: -ms-flexbox; */
-    /* display: flex; */
-    /* -ms-flex-wrap: wrap; */
-    /* flex-wrap: wrap; */
-    /* list-style-type: circle; */
-    /* padding: 9; */
-    /* margin: 0; */
-    /* width: 250px; */
-    /* background-color: red; */
-    /* padding-left: 20px; */
-/* } */
-
-/* .try-li{ */
-    /* width: 30%; */
-    /* padding: 1px; */
-    /* color: lightcoral; */
-    /* text-transform: uppercase; */
-    /* list-style: circle !important; */
-    /* text-align: center; */
-    /* margin: 10px; */
-    /* background-color: red; */
-/* } */
-  
-/* .try-li:first-child, .try-li:nth-child(4) { */
-    /* width: 100%; */
-    /* min-width: 100%; */
-    /* padding-right: 80px; */
-/* } */
-
-/* .try-li:nth-child(7){ */
-    /* min-width: 62%; */
-    /* width: 62%; */
-/* } */
-
-/* .try-li:nth-child(9){
-    min-width: 70%;
-    width: 70%;
-} */ 
-
-/* .try-li:nth-child(10){
-    min-width: 100%;
-    width: 100%;
-} */
-
-
-/* try -2 */
-
-/* .try{
-    background-color: red;
-    display: grid;
-    grid-template-rows: repeat(1, 2fr);
-}
-
-.try-li{
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-} */
-
 .skills .box{
     position: relative;
     width: 100%;
@@ -224,21 +159,6 @@ body{
     height: 100%;
     background-color: lightcoral;
 }
-
-/* .percent{
-    position: relative;
-    width: 100%;
-    height: 6px;
-    background-color: #ddd;
-    display: block;
-    margin-top: 5px;
-} */
-
-/* .percent>div{
-    
-    display: block;
-    margin-top: 5px;
-} */
 
 /* Donwload Button */
 
@@ -330,6 +250,16 @@ p{
 
 .cert .text{
     margin: 20px 0;
+}
+
+.project-link{
+    color: #848c90;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.project-link:visited{
+    color: #848c90;
 }
 
 
